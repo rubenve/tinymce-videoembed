@@ -10,17 +10,19 @@ Copy the videoembed folder to your tinymce/plugins folder
 #Usage
 - Enable the plugin in your tinyMCE initialization code. This will also add an extra menu item to the Insert menu.
 I.e.:
+```javascript
     tinyMCE.init({
         selector: "textarea",
         plugins: [
               "table contextmenu paste videoembed"
         ],
     });
-    
+````    
 
 - Add the button to the toolbar, like so:
+```javascript    
     tinyMCE.init({
         selector: "textarea",
         toolbar: "insertfile undo redo | videoembed",
     });
-    
+````    
